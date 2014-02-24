@@ -1,0 +1,6 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Oauth 2.0
+POST          /oauth2/access_token        controllers.OAuth2Controller.accessToken
